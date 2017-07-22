@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=GNOME Presence Daemon
+GenericName=GNOME Presence Daemon
+Comment=Run scripts when your desktop session becomes idle / active
+Exec=gnome-presence --active-on-start --stop-processes --kill-processes --wait-on-exit
+Terminal=false
+Type=Application
+Categories=System;Monitor;
+X-Desktop-File-Install-Version=0.23
